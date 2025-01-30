@@ -19,7 +19,7 @@ async def my_node(state: State, config: RunnableConfig) -> Dict[str, Any]:
     # You can use runtime configuration to alter the behavior of your
     # graph.
     return {
-        "changeme": "output from my_node. "
+        "changeme": "output from my_node. We will be able to get LLM answers here"
         f"Configured with {configuration.my_configurable_param}"
     }
 
